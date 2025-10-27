@@ -4,6 +4,7 @@
 div {
   box-sizing: border-box;
 }
+
 .list {
   padding-left: 20px;
   text-align: left;
@@ -12,11 +13,18 @@ div {
 .black-nav {
   display: flex;
   background: black;
-  width: 100%;
+  width: 100vh;
   color: white;
-  padding-left: 20px;
+  padding-left:20px;
+}
+
+.modal {
+  margin-top: 20px;
+  padding: 20px;
+  background: #eee;
+  text-align: left;
 }
 
 #root {
-  width: 1000px;
+  width: 100vh;
 }
