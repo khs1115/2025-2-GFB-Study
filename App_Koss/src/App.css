@@ -18,11 +18,21 @@ div {
   padding-left:20px;
 }
 
+.del {
+  margin-right: 10px;
+}
+
 .modal {
   margin-top: 20px;
   padding: 20px;
   background: #eee;
   text-align: left;
+  
+}
+
+input {
+  padding: 5px;
+  margin-top: 20px;
 }
 
 #root {
